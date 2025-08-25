@@ -1,4 +1,3 @@
-
 .download-container {
     display: flex;
     flex-direction: column;
@@ -7,6 +6,7 @@
     min-height: 95vh;
     background-color: #ffffff;
     padding-bottom: 80px;
+    margin-top: 30px;
 }
 
 .download-content {
