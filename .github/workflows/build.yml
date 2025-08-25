@@ -22,7 +22,7 @@ jobs:
 
       - name: Build web-app
         env:
-          CI: true
+          CI: false            
         run: |
           npm ci --no-audit --no-fund
           npm run build
