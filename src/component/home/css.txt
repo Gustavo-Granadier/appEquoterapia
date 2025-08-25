@@ -1,0 +1,173 @@
+/* Estilos base */
+.home-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 15px;
+  }
+  
+  /* Container principal */
+  .noticeBord {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 20px auto;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Títulos */
+  .noticeBord h1,
+  .noticeBord h2 {
+    text-align: left;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  
+  .noticeBord h1 {
+    font-size: 24px;
+  }
+  
+  .noticeBord h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  
+  /* Container do carrossel */
+  .carousel-container {
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+  }
+  
+  /* Viewport do carrossel */
+  .carousel-viewport {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  
+  /* Container de rolagem horizontal dos meses */
+  .allMonth {
+    display: flex;
+    scroll-snap-type: x mandatory;
+    padding: 10px;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE/Edge */
+  }
+  
+  /* Ocultar a barra de rolagem */
+  .allMonth::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Wrapper dos meses individuais */
+  .month-wrapper {
+    flex: 0 0 auto;
+    width: 220px;
+    scroll-snap-align: center;
+    padding: 5px;
+    margin: 0 20px;
+  }
+  
+  /* Destaque para o mês atual */
+  .month-wrapper.currentMonth {
+    border: 2px solid #3996FD;
+    min-width: 240px;
+    max-width: 250px;
+    min-height: 200px;
+    border-radius: 10px;
+  }
+  
+  /* Indicadores visuais */
+  .carousel-prev-indicator,
+  .carousel-next-indicator {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  
+  .carousel-prev-indicator {
+    left: 10px;
+  }
+  
+  .carousel-next-indicator {
+    right: 10px;
+  }
+  
+  .carousel-prev-indicator::before,
+  .carousel-next-indicator::before {
+    content: "";
+    border-style: solid;
+  }
+  
+  .carousel-prev-indicator::before {
+    border-width: 6px 8px 6px 0;
+    border-color: transparent #3996FD transparent transparent;
+  }
+  
+  .carousel-next-indicator::before {
+    border-width: 6px 0 6px 8px;
+    border-color: transparent transparent transparent #3996FD;
+  }
+  
+  /* Gradientes para indicar mais conteúdo */
+  .carousel-viewport::before,
+  .carousel-viewport::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 40px;
+    z-index: 1;
+    pointer-events: none;
+  }
+  
+  .carousel-viewport::before {
+    left: 0;
+    background: linear-gradient(to right, white, transparent);
+  }
+  
+  .carousel-viewport::after {
+    right: 0;
+    background: linear-gradient(to left, white, transparent);
+  }
+  
+  /* Estilos responsivos */
+  @media (max-width: 700px) {
+    .carousel-viewport {
+      max-width: 550px;
+    }
+  
+    .month-wrapper {
+      width: 200px;
+    }
+  }
+  
+  @media (max-width: 500px) {
+    .carousel-viewport {
+      max-width: 370px;
+    }
+  
+    .month-wrapper {
+      width: 180px;
+    }
+  
+    .carousel-prev-indicator,
+    .carousel-next-indicator {
+      width: 25px;
+      height: 25px;
+    }
+  }

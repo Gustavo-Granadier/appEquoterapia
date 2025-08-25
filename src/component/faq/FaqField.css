@@ -1,0 +1,82 @@
+.faqField-container {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.faqField {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    color: black;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+    border-left: 4px solid #3996FD;
+    border-bottom: 1px solid #3996FD;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.faqField p {
+    flex: 1;
+    margin: 0;
+    font-size: 16px;
+    text-align: left;
+    white-space: normal;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    line-height: 1.3;
+    padding-right: 10px;
+}
+
+.faq-icon {
+    font-size: 20px;
+    color: #000;
+    flex-shrink: 0;
+}
+
+.faq-content {
+    background: #f9f9f9;
+    padding: 15px;
+    font-size: 15px;
+    color: #555;
+    border-left: 4px solid #3996FD;
+    border-bottom: 1px solid #3996FD;
+    border-top: none;
+    border-radius: 0 0 5px 5px;
+    margin-top: -5px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    line-height: 1.5;
+}
+
+.faqField:hover {
+    background-color: #f9f9f9;
+}
+
+.faqField.open {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+@media (max-width: 600px) {
+    .faqField {
+        font-size: 14px;
+        padding: 15px;
+    }
+
+    .faqField p {
+        font-size: 14px;
+    }
+
+    .faq-icon {
+        font-size: 20px;
+    }
+
+    .faq-content {
+        font-size: 14px;
+        padding: 15px;
+    }
+}

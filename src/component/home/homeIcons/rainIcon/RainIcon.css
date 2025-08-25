@@ -1,0 +1,15 @@
+.divRainIcon {
+    background-color: #0771E5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    border-radius: 30%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.Rain {
+    color: white;
+    font-size: 17px;
+}

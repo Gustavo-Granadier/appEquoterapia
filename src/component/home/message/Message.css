@@ -1,0 +1,59 @@
+.messageBody {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    max-width: 400px;
+    min-width: 250px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+    border: 2px solid #D9D9D9;
+    margin-top: 10px;
+}
+
+
+.message {
+    font-size: 14px;
+    color: #333;
+    line-height: 1.4;
+    text-align: left;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+.moreIcon {
+    color: #3996FD;
+    font-size: 20px;
+}
+
+.messageFooter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+    color: #777;
+}
+
+
+.data {
+    margin: 0;
+}
+
+
+.seeMore {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+    font-weight: 600;
+
+    transition: color 0.3s;
+}
+
+.seeMore:hover {
+    color: #2674c7;
+}

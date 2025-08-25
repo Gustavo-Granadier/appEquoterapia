@@ -1,0 +1,78 @@
+.notSendField {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #FDEEEE;
+    color: black;
+    padding: 12px 15px;
+    border-bottom-right-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    min-width: 300px;
+    max-width: 100%;
+    width: 100%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-left: 4px solid #D25050;
+    border-bottom: 1px solid #D25050;
+    word-wrap: break-word;
+    overflow: hidden;
+}
+
+/* Garante que o nome do documento ocupe o espaço corretamente */
+.notSendField p {
+    flex: 1;
+    /* Ocupa todo o espaço disponível */
+    margin: 0;
+    font-size: 16px;
+    text-align: left;
+    /* ALINHA O TEXTO À ESQUERDA */
+    white-space: normal;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    line-height: 1.3;
+    padding-right: 10px;
+    /* Adiciona um espaço entre o texto e o botão */
+}
+
+/* Botão de Download */
+.notSend {
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #D25050;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+    flex-shrink: 0;
+    min-width: 108px;
+}
+
+.notSend svg {
+    margin-left: 5px;
+    font-size: 18px;
+}
+
+.notSend:hover {
+    background-color: #7F3030;
+}
+
+@media (max-width: 600px) {
+    .notSendField {
+        font-size: 14px;
+        padding: 10px;
+        max-width: 100%;
+    }
+
+    .notSendField p {
+        font-size: 14px;
+    }
+
+    .notSend {
+        font-size: 14px;
+        padding: 6px 10px;
+    }
+}

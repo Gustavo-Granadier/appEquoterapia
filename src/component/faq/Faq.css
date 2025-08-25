@@ -1,0 +1,34 @@
+.faq-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #3996FD;
+}
+
+.header-icons {
+    display: flex;
+    gap: 15px;
+}
+
+.faq-body {
+    flex: 1;
+    background-color: white;
+    padding: 15px;
+}
+
+.faq-title {
+    text-align: left;
+    margin-left: -3px;
+    padding-bottom: 10px;
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 65px;
+}
+
+.faq-list {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+}

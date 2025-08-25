@@ -1,0 +1,128 @@
+.report-request {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+    margin-bottom: 130px;
+    padding: 5px;
+}
+
+.h1Request {
+    text-align: left;
+    font-size: 28px;
+    margin-top: 85px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.h3Request {
+    text-align: left;
+    width: 100%;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.options {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 10px;
+    width: 100%;
+    margin: 10px 0;
+    margin-bottom: 25px;
+}
+
+.option {
+    padding: 8px 12px;
+    font-size: 14px;
+    font-weight: bold;
+    border: 2px solid #ccc;
+    border-radius: 15px;
+    background-color: white;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.option:hover {
+    background-color: #3996FD;
+    color: white;
+    border-color: #3996FD;
+}
+
+textarea {
+    width: 100%;
+    min-height: 235px;
+    padding: 12px;
+    font-size: 14px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    resize: none;
+    outline: none;
+    background-color: white;
+}
+
+textarea:focus {
+    border-color: #3996FD;
+    box-shadow: 0 0 5px rgba(57, 150, 253, 0.5);
+}
+
+.note-description {
+    font-size: 14px;
+    color: #666;
+    text-align: left;
+    width: 100%;
+    margin-top: 5px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 15px;
+    width: 90%;
+    max-width: 600px;
+    margin-left: 15px;
+
+}
+
+.buttons button {
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    min-width: 120px;
+}
+
+
+.buttons button:first-child {
+    background-color: #D25050;
+    color: white;
+}
+
+.buttons button:first-child:hover {
+    background-color: #7F3030;
+}
+
+
+.buttons button:last-child {
+    background-color: #28A751;
+    color: white;
+}
+
+.buttons button:last-child:hover {
+    background-color: #186531;
+}
+
+@media (max-width: 500px) {
+    .report-request {
+        max-width: 90%;
+    }
+
+}

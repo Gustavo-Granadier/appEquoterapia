@@ -1,0 +1,65 @@
+import { useState, useEffect, useRef } from "react";
+import Month1 from "./month/Month1";
+import "./Home.css";
+
+const getCurrentMonth = () => new Date().getMonth() + 1; // Obtém o mês atual
+
+const Home = () => {
+  const currentMonth = getCurrentMonth();
+  const monthsContainerRef = useRef(null);
+
+  // Scroll para centralizar o mês atual quando o componente é montado
+  useEffect(() => {
+    if (monthsContainerRef.current) {
+      const container = monthsContainerRef.current;
+      const currentMonthElement = container.querySelector(".currentMonth");
+
+      if (currentMonthElement) {
+        // Calcula a posição para centralizar o mês atual
+        const containerWidth = container.offsetWidth;
+        const elementWidth = currentMonthElement.offsetWidth;
+        const elementLeft = currentMonthElement.offsetLeft;
+        const scrollPosition = elementLeft - (containerWidth / 2) + (elementWidth / 2);
+
+        // Scroll suave para a posição
+        container.scrollTo({
+          left: scrollPosition,
+          behavior: "smooth"
+        });
+      }
+    }
+  }, []);
+
+  return (
+    <div className="home-container">
+      <h1>Quadros de informações</h1>
+      <div className="noticeBord">
+        <h2>Próximas Sessões</h2>
+
+        {/* Wrapper fixo para o carrossel */}
+        <div className="carousel-container">
+          {/* Área visível do carrossel */}
+          <div className="carousel-viewport">
+            {/* Container com todos os meses que pode ser scrollado */}
+            <div className="allMonth" ref={monthsContainerRef}>
+              {months.map((month) => (
+                <div
+                  key={month.id}
+                  className={`month-wrapper ${month.id === currentMonth ? "currentMonth" : ""}`}
+                >
+                  <Month1 month={month.month} sessions={month.sessions} />
+                </div>
+              ))}
+            </div>
+          </div>
+
+          {/* Indicadores visuais de que há mais conteúdo */}
+          <div className="carousel-prev-indicator"></div>
+          <div className="carousel-next-indicator"></div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Home;

@@ -1,0 +1,59 @@
+
+.numbers-page {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden;
+}
+
+/* NavBar fixa no topo */
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+/* MenuBar fixa embaixo */
+.menu-bar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+/* Conteúdo scrollável entre navbar e menubar */
+.numbers {
+    margin-top: 60px;
+    /* ajuste conforme a altura da navbar */
+    margin-bottom: 60px;
+    /* ajuste conforme a altura do menubar */
+    padding: 16px;
+    overflow-y: auto;
+    height: calc(100vh - 120px);
+    /* 60 topo + 60 base */
+}
+
+.numbers h1 {
+    text-align: left;
+    margin-left: -5px;
+    padding-bottom: 5px;
+    margin-top: 10px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.numbers h2 {
+    font-size: 18px;
+    font-weight: normal;
+    margin-bottom: 24px;
+}
+
+.numbers-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+}

@@ -1,0 +1,142 @@
+.sessions-board {
+    background: white;
+    border-radius: 10px;
+    margin: 5px auto;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.carousel-container {
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.carousel-viewport {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.allMonth {
+    display: flex;
+    scroll-snap-type: x mandatory;
+    padding: 10px;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.allMonth::-webkit-scrollbar {
+    display: none;
+}
+
+.month-wrapper {
+    flex: 0 0 auto;
+    width: 220px;
+    scroll-snap-align: center;
+    padding: 5px;
+    margin-left: 50px;
+    margin-right: 20px;
+}
+
+.month-wrapper.currentMonth {
+    border: 2px solid #3996FD;
+    min-width: 240px;
+    max-width: 250px;
+    min-height: 200px;
+    border-radius: 10px;
+    margin-right: -35px;
+}
+
+.carousel-prev-indicator,
+.carousel-next-indicator {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.carousel-prev-indicator {
+    left: 10px;
+}
+
+.carousel-next-indicator {
+    right: 10px;
+}
+
+.carousel-prev-indicator::before,
+.carousel-next-indicator::before {
+    content: "";
+    border-style: solid;
+}
+
+.carousel-prev-indicator::before {
+    border-width: 6px 8px 6px 0;
+    border-color: transparent #3996FD transparent transparent;
+}
+
+.carousel-next-indicator::before {
+    border-width: 6px 0 6px 8px;
+    border-color: transparent transparent transparent #3996FD;
+}
+
+.carousel-viewport::before,
+.carousel-viewport::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 40px;
+    z-index: 1;
+    pointer-events: none;
+}
+
+.carousel-viewport::before {
+    left: 0;
+    background: linear-gradient(to right, white, transparent);
+}
+
+.carousel-viewport::after {
+    right: 0;
+    background: linear-gradient(to left, white, transparent);
+}
+
+@media (max-width: 700px) {
+    .carousel-viewport {
+        max-width: 550px;
+        min-width: 300px;
+    }
+
+    .month-wrapper {
+        width: 200px;
+    }
+}
+
+@media (max-width: 500px) {
+    .carousel-viewport {
+        max-width: 370px;
+        min-width: 300px;
+    }
+
+    .month-wrapper {
+        width: 180px;
+    }
+
+    .carousel-prev-indicator,
+    .carousel-next-indicator {
+        width: 25px;
+        height: 25px;
+    }
+}

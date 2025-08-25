@@ -1,0 +1,24 @@
+<div className="legend">
+        <h3>Legenda</h3>
+        <div className="explain">
+          <ConfirmIcon /> <p>Sessão confirmada</p>
+        </div>
+        <div className="explain">
+          <HolidayIcon /> <p>Feriado, não haverá sessão</p>
+        </div>
+        <div className="explain">
+          <CancelIcon /> <p>Sessão cancelada</p>
+        </div>
+        <div className="explain">
+          <RainIcon /> <p>Sessão cancelada por previsão de chuva</p>
+        </div>
+        <div className="explain">
+          <MissWarning /> <p>Justifique sua falta</p>
+        </div>
+        <div className="explain">
+          <Missjustified /> <p>Falta justificada</p>
+        </div>
+        <div className="explain">
+          <MissUrgency /> <p>Justifique sua falta com urgência</p>
+        </div>
+      </div>
