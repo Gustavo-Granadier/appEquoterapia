@@ -35,20 +35,26 @@
 
 .month-wrapper {
     flex: 0 0 auto;
-    width: 220px;
+    width: 200px;
+    /* antes 220px */
     scroll-snap-align: center;
     padding: 5px;
-    margin-left: 50px;
-    margin-right: 20px;
+    margin-left: 20px;
+    /* antes 50px */
+    margin-right: 10px;
+    /* antes 20px */
 }
 
 .month-wrapper.currentMonth {
     border: 2px solid #3996FD;
-    min-width: 220px;
-    max-width: 220px;
-    min-height: 190px;
+    min-width: 190px;
+    /* acompanha o tamanho reduzido */
+    max-width: 190px;
+    min-height: 170px;
+    /* antes 190px */
     border-radius: 10px;
-    margin-right: -25px;
+    margin-right: -10px;
+    /* antes -25px, suavizei */
 }
 
 .carousel-prev-indicator,
