@@ -2,9 +2,9 @@
     border: 2px solid #D9D9D9;
     border-radius: 10px;
     padding: 15px;
-    min-width: 225px;
-    max-width: 250px;
-    min-height: 200px;
+    min-width: 205px;
+    max-width: 205px;
+    min-height: 180px;
 }
 
 .current-month {
@@ -13,13 +13,13 @@
 
 .month h4 {
     text-align: center;
-    font-size: 18px;
+    font-size: 14px;
     font-weight: bold;
     margin-bottom: 20px;
 }
 
 .month p {
     text-align: left;
-    font-size: 14px;
+    font-size: 10px;
     margin: 15px 0;
 }

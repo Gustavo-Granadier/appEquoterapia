@@ -138,7 +138,6 @@ const Home = () => {
     <div>
       <NavBar />
       <div className="container">
-        <h1 className="h1Home">Quadro de informações</h1>
         <div className="sessionsBord">
           <h2 className="h2Home">Proximas sessões</h2>
           <div className="sessionBord">
