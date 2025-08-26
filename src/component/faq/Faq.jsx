@@ -33,16 +33,6 @@ const Faq = () => {
             title: "Pergunta",
             text: "Resposta para a pergunta 5."
         },
-        {
-            id: 6,
-            title: "Pergunta",
-            text: "Resposta para a pergunta 6."
-        },
-        {
-            id: 7,
-            title: "Pergunta",
-            text: "Resposta para a pergunta 7."
-        }
     ];
 
     return (
