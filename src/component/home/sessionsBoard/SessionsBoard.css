@@ -44,11 +44,11 @@
 
 .month-wrapper.currentMonth {
     border: 2px solid #3996FD;
-    min-width: 235px;
-    max-width: 245px;
-    min-height: 210px;
+    min-width: 220px;
+    max-width: 220px;
+    min-height: 190px;
     border-radius: 10px;
-    margin-right: -35px;
+    margin-right: -25px;
 }
 
 .carousel-prev-indicator,
