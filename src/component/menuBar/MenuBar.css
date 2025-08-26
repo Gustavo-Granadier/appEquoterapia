@@ -1,6 +1,6 @@
 .menuBar {
     width: 100%;
-    height: 70px;
+    height: 65px;
     background-color: #3996FD;
     position: fixed;
     bottom: 0;
@@ -29,17 +29,17 @@
 
 .homeIcon {
     color: white;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .questionIcon {
     color: white;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .menu {
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -48,7 +48,7 @@
     border-radius: 50%;
     padding: 0;
     position: relative;
-    font-size: 24px;
+    font-size: 18px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
     transform: translateY(-4px);
 }
