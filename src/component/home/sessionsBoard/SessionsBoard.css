@@ -44,9 +44,9 @@
 
 .month-wrapper.currentMonth {
     border: 2px solid #3996FD;
-    min-width: 240px;
-    max-width: 250px;
-    min-height: 200px;
+    min-width: 235px;
+    max-width: 245px;
+    min-height: 210px;
     border-radius: 10px;
     margin-right: -35px;
 }
