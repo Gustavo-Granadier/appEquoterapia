@@ -29,17 +29,17 @@
 
 .homeIcon {
     color: white;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .questionIcon {
     color: white;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .menu {
-    width: 30px;
-    height: 30px;
+    width: 10px;
+    height: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
