@@ -5,16 +5,16 @@
     border-radius: 12px;
     padding: 16px;
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
-    max-width: 375px;
-    min-width: 375px;
+    max-width: 350px;
+    min-width: 350px;
     min-height: 150px;
     background-color: #fff;
     position: relative;
 }
 
 .porfile {
-    width: 140px;
-    height: 180px;
+    width: 120px;
+    height: 160px;
     flex-shrink: 0;
     background-color: #f0f0f0;
     border-radius: 8px;
