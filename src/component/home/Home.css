@@ -7,7 +7,7 @@
     flex-direction: column;
     justify-content: center;
     min-height: 83vh;
-    margin-top: 115px;
+    margin-top: 105px;
 
 }
 
@@ -53,16 +53,20 @@
 .legend-box {
     border: 3px solid #D9D9D9;
     border-radius: 0 0 6px 6px;
-    padding: 3px 6px;       /* leve ajuste */
-    width: 95%;             /* mantém igual ao antes */
+    padding: 3px 6px;
+    /* leve ajuste */
+    width: 95%;
+    /* mantém igual ao antes */
     max-width: 100%;
-    min-height: 180px;      /* diminuído (antes 225px) */
+    min-height: 160px;
+    /* diminuído (antes 225px) */
     box-sizing: border-box;
     margin: 0 auto;
 }
 
 .legend-title {
-    font-size: 14px;        /* mantém como estava */
+    font-size: 14px;
+    /* mantém como estava */
     font-weight: bold;
     margin: 0 0 3px 0;
     padding-bottom: 2px;
