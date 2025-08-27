@@ -48,7 +48,7 @@
     max-width: 190px;
     min-height: 170px;
     border-radius: 10px;
-
+    margin-right: -5px;
 }
 
 .carousel-viewport::before,
