@@ -5,10 +5,12 @@
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    min-height: 83vh;
+    justify-content: flex-start;
+    /* não força centralização vertical */
+    min-height: auto;
+    /* deixa o conteúdo crescer */
     margin-top: 105px;
-
+    overflow-y: auto;
 }
 
 .noticeBord {
@@ -58,7 +60,7 @@
     width: 95%;
     /* mantém igual ao antes */
     max-width: 100%;
-    min-height: 160px;
+    min-height: 150px;
     /* diminuído (antes 225px) */
     box-sizing: border-box;
     margin: 0 auto;
