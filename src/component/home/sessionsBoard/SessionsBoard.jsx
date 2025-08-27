@@ -44,10 +44,6 @@ const SessionsBoard = ({ months }) => {
             ))}
           </div>
         </div>
-
-        {/* Indicadores visuais */}
-        <div className="carousel-prev-indicator"></div>
-        <div className="carousel-next-indicator"></div>
       </div>
     </div>
   );
