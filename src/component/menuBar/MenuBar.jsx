@@ -38,7 +38,7 @@ const MenuBar = () => {
 
                 <div className="question">
                     <Link to="/faq">
-                        <FaRegQuestionCircle className="questionIcon"/>
+                        <FaRegQuestionCircle className="questionIcon" />
                     </Link>
                 </div>
             </div>
@@ -69,7 +69,7 @@ const MenuBar = () => {
                         <p>Anotações da Semana</p>
                     </Link>
 
-                    <Link to="/calendario" className="menuOption">
+                    <Link to="" className="menuOption">
                         <div className="menuIcon"><CiCalendarDate /></div>
                         <p>Calendário</p>
                     </Link>
