@@ -26,8 +26,10 @@ const ComplaintSuggestion = () => {
                 <h1 className='h1Comlaiment'>Reclamações e Sugestões</h1>
                 <div className="noteField">
                     <textarea name="note"
+                        placeholder="Escreva aqui sua sugestão ou reclamação..."
                         onChange={(e) => settext(e.target.value)}
                         value={text}></textarea>
+                    
                     <p>Tudo que for escrito será enviao de forma anônima e apenas os profissionais da equoterapia terão acesso as mensagens. E serão utilizadas para o aprimoramento de nosso serviço</p>
                 </div>
 

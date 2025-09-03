@@ -30,6 +30,7 @@ const JustificativaFalta1 = () => {
                 <div className="noteJustificativa">
                     <h3 className="h3Justificativa">Escreva o motivo da falta</h3>
                     <textarea name="note"
+                        placeholder="Escreva aqui o motivo da falta..."
                         onChange={(e) => settext(e.target.value)}
                         value={text}></textarea>
                 </div>
