@@ -4,8 +4,7 @@ import Anexo from "./anexo/Anexo1";
 import NovoAnexo from "./novoAnexo/NovoAnexo1";
 
 const PainelAnexos = ({ initialCount = 1 }) => {
-    // Ensure initialCount doesn't exceed max
-    const MAX_ANEXOS = 3;
+    const MAX_ANEXOS = 2;
     const safeInitialCount = Math.min(initialCount, MAX_ANEXOS);
 
     const [items, setItems] = useState(
