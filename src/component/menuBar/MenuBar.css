@@ -106,7 +106,6 @@
     margin: 0 auto;
 }
 
-
 .menuOption {
     display: flex;
     flex-direction: column;
@@ -158,6 +157,18 @@
     font-size: 30px;
 }
 
+.ultimos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px 12px;
+    justify-content: center;
+    padding: 10px;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    grid-column: 1 / -1;
+}
+
 @media (max-width: 768px) {
     .menuBar {
         height: 70px;
@@ -201,13 +212,12 @@
 
 @media (max-width: 380px) {
     .menu-options {
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
         gap: 12px 8px;
     }
 
-    .menuOption .menuIcon {
-        width: 60px;
-        height: 60px;
-        font-size: 26px;
+    .ultimos {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 12px 8px;
     }
 }

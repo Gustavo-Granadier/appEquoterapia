@@ -73,21 +73,22 @@ const MenuBar = () => {
                         <div className="menuIcon"><CiCalendarDate /></div>
                         <p>Calendário</p>
                     </Link>*/}
+                    <div className="ultimos">
+                        <Link to="/telefones" className="menuOption">
+                            <div className="menuIcon"><BsTelephone /></div>
+                            <p>Telefones de Apoio</p>
+                        </Link>
 
-                    <Link to="/telefones" className="menuOption">
-                        <div className="menuIcon"><BsTelephone /></div>
-                        <p>Telefones de Apoio</p>
-                    </Link>
+                        <Link to="/historias" className="menuOption">
+                            <div className="menuIcon"><HiOutlineVideoCamera /></div>
+                            <p>Histórias de Superação</p>
+                        </Link>
 
-                    <Link to="/historias" className="menuOption">
-                        <div className="menuIcon"><HiOutlineVideoCamera /></div>
-                        <p>Histórias de Superação</p>
-                    </Link>
-
-                    <Link to="/reclamacoesSugestoes" className="menuOption">
-                        <div className="menuIcon"><GoStar /></div>
-                        <p>Avaliações e Sugestões</p>
-                    </Link>
+                        <Link to="/reclamacoesSugestoes" className="menuOption">
+                            <div className="menuIcon"><GoStar /></div>
+                            <p>Avaliações e Sugestões</p>
+                        </Link>
+                    </div>
                 </div>
             </div>
         </>
