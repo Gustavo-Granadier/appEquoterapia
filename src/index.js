@@ -19,6 +19,7 @@ import ComplaintSuggestion from './component/complaintSuggestion/ComplaintSugges
 import Faq from './component/faq/Faq';
 import Number from './component/number/Number';
 import Video from './component/video/Video';
+import JustificativaFalta from './component/justificativaFalta/JustificativaFalta1';
 
 
 
@@ -37,6 +38,7 @@ const router = createBrowserRouter([
   { path: 'telefones', element: <Number /> },
   { path: 'historias', element: <Video /> },
   { path: 'faq', element: <Faq /> },
+  { path: 'justificativaFalta', element: <JustificativaFalta /> },
 ], {
   basename: process.env.PUBLIC_URL,
 });

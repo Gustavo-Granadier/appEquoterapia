@@ -8,8 +8,8 @@ import "./Notification.css";
 const notifications = [
     { id: 1, massage: "justificativa de falta enviada com sucesso", type: "green" },
     { id: 2, massage: "Falta de documento", type: "red" },
-    { id: 3, massage: "justificativa de falta enviada com sucesso", type: "yellow" },
-    { id: 4, massage: "Falta de documento", type: "green" },
+    { id: 3, massage: "Justifique sua falta", type: "yellow" },
+    { id: 4, massage: "justificativa de falta enviada com sucesso", type: "green" },
 ];
 
 const Notification = () => {

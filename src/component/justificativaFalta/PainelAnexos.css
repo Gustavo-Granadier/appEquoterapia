@@ -1,0 +1,93 @@
+.attachmentsPanel-frame {
+    height: 175px;
+    max-height: 175px;
+    width: 350px;
+    min-width: 350px;
+    max-width: 350px;
+    overflow: hidden;
+    margin: 8px 0;
+    margin-bottom: -20px;
+    box-sizing: border-box;
+}
+
+.attachmentsPanel-track {
+    height: 100%;
+    width: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    -webkit-overflow-scrolling: touch;
+    scroll-behavior: smooth;
+    scrollbar-width: thin;
+    scrollbar-color: #c0c0c0 transparent;
+}
+
+.attachmentsPanel-track::-webkit-scrollbar {
+    width: 4px;
+}
+
+.attachmentsPanel-track::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.attachmentsPanel-track::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 2px;
+}
+
+.attachmentsPanel-track::-webkit-scrollbar-thumb:hover {
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.attachmentRow {
+    margin-bottom: 8px;
+    flex-shrink: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.attachmentRow:last-child {
+    margin-bottom: 8px;
+}
+
+@media (max-width: 768px) {
+    .attachmentsPanel-frame {
+        width: 350px;
+        min-width: 350px;
+        max-width: 350px;
+        border-radius: 8px;
+    }
+
+    .attachmentsPanel-track {
+        padding: 8px 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .attachmentsPanel-frame {
+        width: 350px;
+        min-width: 350px;
+        max-width: 350px;
+    }
+
+    .attachmentsPanel-track {
+        padding: 6px 12px;
+    }
+
+    .attachmentRow {
+        margin-bottom: 4px;
+    }
+}
+
+@media (max-width: 320px) {
+    .attachmentsPanel-frame {
+        width: 350px;
+        min-width: 350px;
+        max-width: 350px;
+    }
+
+    .attachmentsPanel-track {
+        padding: 6px 8px;
+    }
+}
