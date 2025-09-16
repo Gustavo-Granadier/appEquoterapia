@@ -10,7 +10,6 @@ const NoteWeek = () => {
 
     const handleSubmit = () => {
         setIsModalOpen(true);
-        // Aqui você pode adicionar a lógica de envio do formulário
     };
 
     return (

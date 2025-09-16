@@ -1,0 +1,116 @@
+.note-week,
+.writtenNotes,
+.editNote {
+    padding: 20px;
+    width: 90%;
+    max-width: 600px;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.h1Notes,
+.h1WrittenNotes,
+.h1EditNote {
+    text-align: left;
+    margin-left: 15px;
+    padding-bottom: 10px;
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 110px;
+}
+
+.note-week textarea,
+.writtenNotes textarea,
+.editNote textarea {
+    width: 100%;
+    min-height: 400px;
+    padding: 12px;
+    font-size: 16px;
+    border: 2px solid #D9D9D9;
+    border-radius: 8px;
+    resize: vertical;
+    outline: none;
+    background-color: #f9f9f9;
+}
+
+.note-week textarea:focus,
+.writtenNotes textarea:focus,
+.editNote textarea:focus {
+    border-color: #3996FD;
+    box-shadow: 0 0 5px rgba(57, 150, 253, 0.5);
+}
+
+.note-week p,
+.writtenNotes p,
+.editNote p {
+    font-size: 14px;
+    color: #666;
+    margin-top: 10px;
+    text-align: left;
+}
+
+/* BOTÕES COMO LINKS */
+.writtenNotesButtons,
+.editNoteButtons {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 15px;
+    width: 90%;
+    max-width: 600px;
+    margin-left: 15px;
+}
+
+.writtenNotesButtons a,
+.editNoteButtons a {
+    display: inline-block;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    min-width: 120px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+/* Botão vermelho */
+.writtenNotesButtons .red,
+.editNoteButtons .red {
+    background-color: #D25050;
+}
+
+.writtenNotesButtons .red:hover,
+.editNoteButtons .red:hover {
+    background-color: #7F3030;
+}
+
+/* Botão verde */
+.writtenNotesButtons .green,
+.editNoteButtons .green {
+    background-color: #28A751;
+}
+
+.writtenNotesButtons .green:hover,
+.editNoteButtons .green:hover {
+    background-color: #186531;
+}
+
+@media (max-width: 600px) {
+
+    .note-week,
+    .writtenNotes,
+    .editNote {
+        width: 95%;
+        margin-top: -20px;
+    }
+
+    .writtenNotesButtons,
+    .editNoteButtons {
+        width: 95%;
+        margin-top: 20px;
+    }
+}

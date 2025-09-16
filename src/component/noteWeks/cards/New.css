@@ -1,0 +1,76 @@
+.newField {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #EAF8EE;
+    color: black;
+    padding: 12px 15px;
+    border-bottom-right-radius: 10px;
+    font-size: 16px;
+    min-width: 300px;
+    max-width: 100%;
+    width: 100%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-left: 4px solid #28A751;
+    border-bottom: 1px solid #28A751;
+    word-wrap: break-word;
+    overflow: hidden;
+}
+
+
+.newField p {
+    flex: 1;
+    margin: 0;
+    font-size: 16px;
+    text-align: left;
+    white-space: normal;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    line-height: 1.3;
+    padding-right: 10px;
+}
+
+.new {
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #28A751;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+    flex-shrink: 0;
+    min-width: 108px;
+    text-decoration: none;
+}
+
+
+.new svg {
+    margin-left: 5px;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.new:hover {
+    background-color: #186531;
+}
+
+@media (max-width: 600px) {
+    .newField {
+        font-size: 14px;
+        padding: 10px;
+        max-width: 100%;
+    }
+
+    .newField p {
+        font-size: 14px;
+    }
+
+    .new {
+        font-size: 14px;
+        padding: 6px 10px;
+    }
+}

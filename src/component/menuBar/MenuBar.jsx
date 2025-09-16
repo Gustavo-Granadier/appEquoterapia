@@ -64,7 +64,7 @@ const MenuBar = () => {
                         <p>Documentos de Download</p>
                     </Link>
 
-                    <Link to="/anotacaoes" className="menuOption">
+                    <Link to="/listaAnotacoes" className="menuOption">
                         <div className="menuIcon"><LuNotebookPen /></div>
                         <p>Anotações da Semana</p>
                     </Link>
@@ -84,7 +84,7 @@ const MenuBar = () => {
                             <p>Histórias de Superação</p>
                         </Link>
 
-                        <Link to="/reclamacoesSugestoes" className="menuOption">
+                        <Link to="/listaAnotacoesEditarAnotacao" className="menuOption">
                             <div className="menuIcon"><GoStar /></div>
                             <p>Avaliações e Sugestões</p>
                         </Link>

@@ -20,6 +20,11 @@ import Faq from './component/faq/Faq';
 import Number from './component/number/Number';
 import Video from './component/video/Video';
 import JustificativaFalta from './component/justificativaFalta/JustificativaFalta1';
+import NoteList from './component/noteWeks/NoteList';
+import WrittenNote from './component/noteWeks/WrittenNotes1';
+import EditNote from './component/noteWeks/EditNote';
+import ComplaintSuggestionList from './component/complaintSuggestion/ComplaintSuggestionList';
+import ComplaintSuggestionView from './component/complaintSuggestion/ComplaintSuggestionView';
 
 
 
@@ -29,7 +34,7 @@ const router = createBrowserRouter([
   { path: 'tutorial', element: <Tutorial /> },
   { path: '/', element: <Login /> },
   { path: 'resquisicao', element: <ReportRequest /> },
-  { path: 'anotacaoes', element: <NoteWeek /> },
+  { path: 'novaAnotacaoes', element: <NoteWeek /> },
   { path: 'home', element: <Home /> },
   { path: 'downloadDocumento', element: <DocumentDownload /> },
   { path: 'documento', element: <Document /> },
@@ -39,6 +44,11 @@ const router = createBrowserRouter([
   { path: 'historias', element: <Video /> },
   { path: 'faq', element: <Faq /> },
   { path: 'justificativaFalta', element: <JustificativaFalta /> },
+  { path: "listaAnotacoes", element: <NoteList /> },
+  { path: "anotacoesEcritas", element: <WrittenNote /> },
+  { path: "editarAnotacao", element: <EditNote /> },
+  { path: "listaAnotacoesEditarAnotacao", element: <ComplaintSuggestionList /> },
+  { path: "vizualisacaoReclamacaoSugestao", element: <ComplaintSuggestionView /> },
 ], {
   basename: process.env.PUBLIC_URL,
 });

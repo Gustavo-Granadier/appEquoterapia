@@ -1,0 +1,106 @@
+.complaintSuggestionView {
+    padding: 20px;
+    width: 90%;
+    max-width: 600px;
+    text-align: center;
+    margin-left: 10px;
+    margin-bottom: -20px;
+}
+
+.h1ComplaintView {
+    text-align: left;
+    margin-left: 12px;
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 115px;
+    margin-bottom: 5px;
+}
+
+.messageContainer {
+    margin-bottom: 10px;
+}
+
+.userMessage,
+.responseMessage {
+    width: 100%;
+    min-height: 200px;
+    padding: 12px;
+    font-size: 16px;
+    border: 2px solid #D9D9D9;
+    border-radius: 8px;
+    resize: none;
+    outline: none;
+    background-color: #f9f9f9;
+    margin-bottom: 15px;
+}
+
+.messageLabel {
+    text-align: left;
+    width: 100%;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.complaintSuggestionView p {
+    font-size: 14px;
+    color: #666;
+    margin-top: 10px;
+    text-align: left;
+}
+
+.complaintSuggestionViewButtons {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 15px;
+    width: 90%;
+    max-width: 600px;
+    margin-left: 15px;
+}
+
+.complaintSuggestionViewButtons a {
+    display: inline-block;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    min-width: 120px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+.complaintSuggestionViewButtons .blue {
+    background-color: #3996FD;
+}
+
+.complaintSuggestionViewButtons .blue:hover {
+    background-color: #2f8ffc;
+}
+
+.complaintSuggestionViewButtons .red {
+    background-color: #D25050;
+}
+
+.complaintSuggestionViewButtons .red:hover {
+    background-color: #7F3030;
+}
+
+@media (max-width: 600px) {
+    .noteField {
+        width: 95%;
+    }
+
+    .complaintSuggestionView {
+        width: 95%;
+    }
+
+    .complaintSuggestionViewButtons {
+        width: 95%;
+        margin-top: 20px;
+    }
+}
