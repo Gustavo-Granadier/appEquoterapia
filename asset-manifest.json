@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/appEquoterapia/static/css/main.012d9366.css",
+    "main.css": "/appEquoterapia/static/css/main.ca54c40e.css",
     "main.js": "/appEquoterapia/static/js/main.858463ee.js",
     "static/js/453.38ec973b.chunk.js": "/appEquoterapia/static/js/453.38ec973b.chunk.js",
     "index.html": "/appEquoterapia/index.html",
-    "main.012d9366.css.map": "/appEquoterapia/static/css/main.012d9366.css.map",
+    "main.ca54c40e.css.map": "/appEquoterapia/static/css/main.ca54c40e.css.map",
     "main.858463ee.js.map": "/appEquoterapia/static/js/main.858463ee.js.map",
     "453.38ec973b.chunk.js.map": "/appEquoterapia/static/js/453.38ec973b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.012d9366.css",
+    "static/css/main.ca54c40e.css",
     "static/js/main.858463ee.js"
   ]
 }
