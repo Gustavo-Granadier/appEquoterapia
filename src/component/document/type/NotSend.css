@@ -76,3 +76,33 @@
         padding: 6px 10px;
     }
 }
+
+/* Add these styles to your NotSend.css file */
+.bottom-menu {
+    position: fixed;
+    bottom: -100%;
+    left: 0;
+    width: 100%;
+    background: white;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    transition: bottom 0.3s ease-in-out;
+    text-align: center;
+    max-height: 80vh;
+    overflow-y: auto;
+    z-index: 1000;
+    /* Added z-index */
+}
+
+.bottom-menu.show {
+    bottom: 0px;
+    /* Changed from 0 to align with MenuBar height */
+}
+
+/* Update MenuBar z-index to be lower than bottom-menu */
+.menuBar {
+    z-index: 999;
+    /* Added z-index lower than bottom-menu */
+}

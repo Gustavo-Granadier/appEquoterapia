@@ -44,6 +44,8 @@
     transition: background 0.3s ease-in-out;
     flex-shrink: 0;
     min-width: 108px;
+    text-decoration: none;
+    /* Added for Link */
 }
 
 .send svg {

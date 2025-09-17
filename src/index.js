@@ -25,6 +25,7 @@ import WrittenNote from './component/noteWeks/WrittenNotes1';
 import EditNote from './component/noteWeks/EditNote';
 import ComplaintSuggestionList from './component/complaintSuggestion/ComplaintSuggestionList';
 import ComplaintSuggestionView from './component/complaintSuggestion/ComplaintSuggestionView';
+import ViewDocument from './component/document/ViewDocument';
 
 
 
@@ -49,6 +50,7 @@ const router = createBrowserRouter([
   { path: "editarAnotacao", element: <EditNote /> },
   { path: "listaAnotacoesEditarAnotacao", element: <ComplaintSuggestionList /> },
   { path: "vizualisacaoReclamacaoSugestao", element: <ComplaintSuggestionView /> },
+  { path: "visualizarDocumento", element: <ViewDocument /> }
 ], {
   basename: process.env.PUBLIC_URL,
 });

@@ -1,4 +1,4 @@
-.note-week {
+.noteWeek {
     padding: 20px;
     width: 90%;
     max-width: 600px;
@@ -16,9 +16,10 @@
 }
 
 
-.note-week textarea {
+.noteWeek textarea {
     width: 100%;
-    min-height: 350px;
+    min-height: 330px;
+    margin-top: -10;
     padding: 12px;
     font-size: 16px;
     border: 2px solid #D9D9D9;
@@ -34,17 +35,18 @@
 }
 
 
-.note-week p {
+.noteWeek p {
     font-size: 14px;
     color: #666;
     margin-top: 10px;
     text-align: left;
+    margin-bottom: -15px;
 }
 
-.buttons {
+.buttons9 {
     display: flex;
     justify-content: center;
-    margin-top: 10px;
+    margin-top: -15px;
     gap: 15px;
     width: 90%;
     max-width: 600px;
@@ -52,7 +54,7 @@
 }
 
 
-.buttons button {
+.buttons9 button {
     padding: 12px 20px;
     font-size: 16px;
     font-weight: bold;
@@ -64,29 +66,29 @@
 }
 
 
-.buttons button:first-child {
+.buttons9 button:first-child {
     background-color: #D25050;
     color: white;
 }
 
-.buttons button:first-child:hover {
+.buttons9 button:first-child:hover {
     background-color: #7F3030;
 }
 
 
-.buttons button:last-child {
+.buttons9 button:last-child {
     background-color: #28A751;
     color: white;
 }
 
-.buttons button:last-child:hover {
+.buttons9 button:last-child:hover {
     background-color: #186531;
 }
 
 
 @media (max-width: 600px) {
-    .note-week {
+    .noteWeek {
         width: 95%;
-        margin-top: -20px;
+
     }
 }

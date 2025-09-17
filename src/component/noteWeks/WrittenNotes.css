@@ -1,5 +1,5 @@
-.note-week,
-.writtenNotes {
+
+.writtenNotes3 {
     padding: 20px;
     width: 90%;
     max-width: 600px;
@@ -7,7 +7,6 @@
     margin-left: 10px;
 }
 
-.h1Notes,
 .h1WrittenNotes {
     text-align: left;
     margin-left: 15px;
@@ -17,10 +16,9 @@
     margin-top: 110px;
 }
 
-.note-week textarea,
-.writtenNotes textarea {
+.writtenNotes3 textarea {
     width: 100%;
-    min-height: 400px;
+    min-height: 350px;
     padding: 12px;
     font-size: 16px;
     border: 2px solid #D9D9D9;
@@ -30,14 +28,12 @@
     background-color: #f9f9f9;
 }
 
-.note-week textarea:focus,
-.writtenNotes textarea:focus {
+.writtenNotes3 textarea:focus {
     border-color: #3996FD;
     box-shadow: 0 0 5px rgba(57, 150, 253, 0.5);
 }
 
-.note-week p,
-.writtenNotes p {
+.writtenNotes3 p {
     font-size: 14px;
     color: #666;
     margin-top: 10px;
@@ -45,17 +41,17 @@
 }
 
 /* BOTÕES COMO LINKS */
-.writtenNotesButtons {
+.writtenNotesButtons1 {
     display: flex;
     justify-content: center;
-    margin-top: 30px;
+    margin-top: -5px;
     gap: 15px;
     width: 90%;
     max-width: 600px;
     margin-left: 15px;
 }
 
-.writtenNotesButtons a {
+.writtenNotesButtons1 a {
     display: inline-block;
     padding: 12px 20px;
     font-size: 16px;
@@ -72,33 +68,32 @@
 }
 
 /* Botão vermelho */
-.writtenNotesButtons .blue {
+.writtenNotesButtons1 .blue {
     background-color: #3996FD;
 }
 
-.writtenNotesButtons .blue:hover {
+.writtenNotesButtons1 .blue:hover {
     background-color: #2f8ffc;
 }
 
 /* Botão verde */
-.writtenNotesButtons .green {
+.writtenNotesButtons1 .green {
     background-color: #28A751;
 }
 
-.writtenNotesButtons .green:hover {
+.writtenNotesButtons1 .green:hover {
     background-color: #186531;
 }
 
 @media (max-width: 600px) {
 
-    .note-week,
-    .writtenNotes {
+    .writtenNotes3 {
         width: 95%;
         margin-top: -20px;
     }
 
-    .writtenNotesButtons {
+    .writtenNotesButtons1 {
         width: 95%;
-        margin-top: 20px;
+
     }
 }

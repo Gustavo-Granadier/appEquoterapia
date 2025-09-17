@@ -36,9 +36,9 @@ Gostaria que vocês dessem uma atenção especial amanhã pra ver se eles fazem 
                 <p>Lembre-se de salvar suas alterações!</p>
             </div>
 
-            <div className="editNoteButtons">
-                <Link to="/listaAnotacoes" className="btn red">Cancelar</Link>
-                <Link onClick={handleSubmit} className="btn green">Salvar</Link>
+            <div className="editNoteButtons5">
+                <Link to="/listaAnotacoes" className="btn red5">Cancelar</Link>
+                <Link onClick={handleSubmit} className="btn green5">Salvar</Link>
             </div>
 
             <MenuBar />

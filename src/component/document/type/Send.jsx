@@ -1,10 +1,13 @@
+import { Link } from "react-router-dom";
 import "./Send.css";
 
 const Send = ({ document }) => {
     return (
         <div className="sendField">
             <p>{document}</p>
-            <button className="send">Visualizar</button>
+            <Link to="/visualizarDocumento" className="send">
+                Visualizar
+            </Link>
         </div>
     );
 };

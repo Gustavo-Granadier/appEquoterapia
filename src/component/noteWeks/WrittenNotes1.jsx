@@ -16,7 +16,7 @@ Gostaria que vocês dessem uma atenção especial amanhã pra ver se eles fazem 
         <div>
             <NavBar />
             <h1 className="h1WrittenNotes">Anotação</h1>
-            <div className="writtenNotes">
+            <div className="writtenNotes3">
                 <textarea
                     name="note"
                     value={preWrittenText}
@@ -24,7 +24,7 @@ Gostaria que vocês dessem uma atenção especial amanhã pra ver se eles fazem 
                 ></textarea>
             </div>
 
-            <div className="writtenNotesButtons">
+            <div className="writtenNotesButtons1">
                 <Link to="/listaAnotacoes" className="btn blue">Voltar</Link>
                 <Link to="/editarAnotacao" className="btn green">Editar</Link>
             </div>

@@ -23,7 +23,7 @@
 .userMessage,
 .responseMessage {
     width: 100%;
-    min-height: 200px;
+    min-height: 125px;
     padding: 12px;
     font-size: 16px;
     border: 2px solid #D9D9D9;
@@ -52,7 +52,7 @@
 .complaintSuggestionViewButtons {
     display: flex;
     justify-content: center;
-    margin-top: 30px;
+    margin-top: -10px;
     gap: 15px;
     width: 90%;
     max-width: 600px;
@@ -101,6 +101,5 @@
 
     .complaintSuggestionViewButtons {
         width: 95%;
-        margin-top: 20px;
     }
 }

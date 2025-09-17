@@ -169,6 +169,10 @@
     grid-column: 1 / -1;
 }
 
+a {
+    text-decoration: none;
+}
+
 @media (max-width: 768px) {
     .menuBar {
         height: 70px;

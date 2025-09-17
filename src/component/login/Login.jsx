@@ -11,7 +11,7 @@ const Login = () => {
     const navigate = useNavigate();
 
     const handleSubmit = () => {
-        return navigate("/tutorial");
+        return navigate("/home");
     }
 
     const forgetPassword = (event) => {

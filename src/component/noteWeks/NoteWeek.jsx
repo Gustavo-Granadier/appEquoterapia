@@ -16,7 +16,7 @@ const NoteWeek = () => {
         <div>
             <NavBar />
             <h1 className='h1Notes'>Anotações da Semana</h1>
-            <div className="note-week">
+            <div className="noteWeek">
                 <textarea name="note"
                     placeholder='Descreve os acontecimentos'
                     onChange={(e) => setNote(e.target.value)}
