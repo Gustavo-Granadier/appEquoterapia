@@ -21,7 +21,7 @@ const NoteWeek = () => {
                     placeholder='Descreve os acontecimentos'
                     onChange={(e) => setNote(e.target.value)}
                     value={note}></textarea>
-                <p className='note-description'>As anotações que forem feitas aqui, serão encaminhadas para os profissionais um dia antes da sessão do praticante</p>
+                <p className='noteWeekDescription'>As anotações que forem feitas aqui, serão encaminhadas para os profissionais um dia antes da sessão do praticante</p>
             </div>
 
             <div className='buttons'>
