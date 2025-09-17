@@ -32,7 +32,7 @@ const NoteWeek = () => {
 
             <Modal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)}>
                 <h2>Anotação Salva!</h2>
-                <p className='noteWeekDescription'>Sua anotação foi salva com sucesso. Qualquer informação é de extrema importacia para
+                <p>Sua anotação foi salva com sucesso. Qualquer informação é de extrema importacia para
                     o bom andamento do tratamento.
                 </p>
             </Modal>
