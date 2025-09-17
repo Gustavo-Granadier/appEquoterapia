@@ -15,7 +15,7 @@ const ComplaintSuggestion = () => {
 
     const handleSubmit = () => {
         setIsModalOpen(true);
-        
+
     };
 
     return (
@@ -29,8 +29,8 @@ const ComplaintSuggestion = () => {
                         placeholder="Escreva aqui sua sugestão ou reclamação..."
                         onChange={(e) => settext(e.target.value)}
                         value={text}></textarea>
-                    
-                    <p>Tudo que for escrito será enviao de forma anônima e apenas os profissionais da equoterapia terão acesso as mensagens. E serão utilizadas para o aprimoramento de nosso serviço</p>
+
+                    <p className='noteFieldDescription'>Tudo que for escrito será enviao de forma anônima e apenas os profissionais da equoterapia terão acesso as mensagens. E serão utilizadas para o aprimoramento de nosso serviço</p>
                 </div>
 
                 <div className='buttons'>
