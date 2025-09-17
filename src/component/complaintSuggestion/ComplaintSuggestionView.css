@@ -17,13 +17,13 @@
 }
 
 .messageContainer {
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 .userMessage,
 .responseMessage {
     width: 100%;
-    min-height: 180px;
+    min-height: 160px;
     padding: 12px;
     font-size: 16px;
     border: 2px solid #D9D9D9;
