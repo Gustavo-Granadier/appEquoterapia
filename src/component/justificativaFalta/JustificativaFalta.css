@@ -17,7 +17,7 @@
 
 .h1Justificativa {
     text-align: left;
-    margin-left: 12px;
+    margin-left: 14px;
     font-size: 28px;
     font-weight: bold;
     margin-top: 115px;
@@ -33,7 +33,7 @@
     width: 100%;
     min-height: 210px;
     padding: 12px;
-    font-size: 10px;
+    font-size: 14px;
     border: 2px solid #D9D9D9;
     border-radius: 8px;
     resize: vertical;
