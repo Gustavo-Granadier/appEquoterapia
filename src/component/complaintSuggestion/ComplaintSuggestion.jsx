@@ -30,7 +30,7 @@ const ComplaintSuggestion = () => {
                         onChange={(e) => settext(e.target.value)}
                         value={text}></textarea>
 
-                    <p className='note-description'>Tudo que for escrito será enviao de forma anônima e apenas os profissionais da equoterapia terão acesso as mensagens. E serão utilizadas para o aprimoramento de nosso serviço</p>
+                    <p className='noteWeekDescriptionon'>Tudo que for escrito será enviao de forma anônima e apenas os profissionais da equoterapia terão acesso as mensagens. E serão utilizadas para o aprimoramento de nosso serviço</p>
                 </div>
 
                 <div className='buttons'>
