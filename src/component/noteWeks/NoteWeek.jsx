@@ -15,7 +15,7 @@ const NoteWeek = () => {
     return (
         <div>
             <NavBar />
-            <h1 className='h1Notes'>Anotações da Semana</h1>
+            <h1 className='h1Notes'>Nova Anotação</h1>
             <div className="noteWeek">
                 <textarea name="note"
                     placeholder='Descreve os acontecimentos'
