@@ -1,5 +1,5 @@
 .view {
-    margin-top: -20px;
+    margin-top: -25px;
 
 }
 
@@ -25,11 +25,9 @@
 
 .h1View {
     text-align: left;
-    margin-left: 15px;
-    padding-bottom: 15px;
+    margin-left: 14px;
     font-size: 28px;
     font-weight: bold;
-    margin-top: -60px;
     margin-bottom: 10px;
 }
 
