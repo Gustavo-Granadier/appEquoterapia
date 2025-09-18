@@ -51,7 +51,7 @@ const Video = () => {
         <h2>Aqui estão algumas histórias de superação de nossos praticantes</h2>
         <div className="numbers-container">
           {historias.map((historias) => (
-            <CardNumber
+            <VideoCard
               key={historias.id}
               name={historias.name}
               praticante={historias.praticante}
