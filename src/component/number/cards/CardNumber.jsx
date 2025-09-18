@@ -1,23 +1,21 @@
 import React from 'react';
 import "./CardNumber.css";
 
-const CardNumber = () => {
+const CardNumber = ({ name, number, foto, descrition }) => {
   return (
     <div className='card-number'>
       <div className="porfile">
-        <img src="profile.jpg" alt="Profile" />
+        <img src={foto} alt="Profile" />
       </div>
       <div className='card-text'>
-        <h2>Nome Responsável</h2>
+        <h2>{name}</h2>
         <div className='description-number'>
           <p>
-            Lorem ipsum dolor sit amet consectetur. Vulputate rhoncus egestas
-            habitant Lorem ipsum dolor sit amet consectetur. Vulputate rhoncus
-            egestas habitant habitant Lorem ipsum dolor sit amet.
+            {descrition}
           </p>
         </div>
         <div className='number'>
-          <p>Número: 42 999113278</p>
+          <p>Número: {number}</p>
         </div>
       </div>
     </div>
