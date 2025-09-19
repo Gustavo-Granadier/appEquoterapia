@@ -1,6 +1,7 @@
 import React from 'react'
 import { GoArrowRight } from "react-icons/go";
 import "./VideoCard.css"
+import { Link } from 'react-router-dom';
 
 const VideoCard = ({ name, praticante, foto, descrition }) => {
   return (
@@ -16,10 +17,10 @@ const VideoCard = ({ name, praticante, foto, descrition }) => {
           </p>
         </div>
         <div className='video-click'>
-          <div className='video-click-container'>
+          <Link to={"/videoHistoria"} className='video-click-container'>
             <p>Ler mais</p>
             <GoArrowRight className="moreIcon-video" />
-          </div>
+          </Link>
         </div>
       </div>
     </div>

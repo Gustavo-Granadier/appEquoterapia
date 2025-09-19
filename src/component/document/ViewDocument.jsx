@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'
 
 const ViewDocument = () => {
     return (
-        <div className="view">
+        <div className="viewDocument">
             <NavBar />
             <h1 className="h1View">Visualizador de Documento</h1>
             <div className="viewContainer">

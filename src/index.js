@@ -26,6 +26,7 @@ import EditNote from './component/noteWeks/EditNote';
 import ComplaintSuggestionList from './component/complaintSuggestion/ComplaintSuggestionList';
 import ComplaintSuggestionView from './component/complaintSuggestion/ComplaintSuggestionView';
 import ViewDocument from './component/document/ViewDocument';
+import VideoView from './component/video/VideoView';
 
 
 
@@ -50,7 +51,8 @@ const router = createBrowserRouter([
   { path: "editarAnotacao", element: <EditNote /> },
   { path: "listaAnotacoesEditarAnotacao", element: <ComplaintSuggestionList /> },
   { path: "vizualisacaoReclamacaoSugestao", element: <ComplaintSuggestionView /> },
-  { path: "visualizarDocumento", element: <ViewDocument /> }
+  { path: "visualizarDocumento", element: <ViewDocument /> },
+  { path: "videoHistoria", element: <VideoView /> }
 ], {
   basename: process.env.PUBLIC_URL,
 });
