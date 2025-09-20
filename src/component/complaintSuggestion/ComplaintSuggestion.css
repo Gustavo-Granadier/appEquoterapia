@@ -20,7 +20,7 @@
     min-height: 330px;
     margin-top: -10;
     padding: 12px;
-    font-size: 10px;
+    font-size: 14px;
     border: 2px solid #D9D9D9;
     border-radius: 8px;
     resize: vertical;
@@ -35,7 +35,7 @@
 
 
 .noteFieldDescription {
-    font-size: 10px;
+    font-size: 14px;
     color: #666;
     margin-top: 2px;
     text-align: left;
