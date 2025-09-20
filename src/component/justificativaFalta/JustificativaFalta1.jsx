@@ -26,7 +26,7 @@ const JustificativaFalta1 = () => {
             <div>
                 <NavBar />
                 <h1 className='h1Justificativa'>Justificativa de Falta</h1>
-                 
+
                 <div className="noteJustificativa">
                     <h3 className="h3Justificativa">Escreva o motivo da falta</h3>
                     <textarea name="note"
